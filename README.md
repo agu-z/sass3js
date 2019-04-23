@@ -138,3 +138,8 @@ There are already a number of npm packages that do something similar to this one
 In addition, there are some webpack loaders that let you import your SASS variables from JS. The problem with those is that even if you use TypeScript or Flow, there's no way (that I'm aware of) for the compiler to check the type of your variables object.
 
 `sass3js` creates an actual `.js`/`.ts` file that you can import like you would any other module. This allows your type checker to infer the types of the variables object and alert you of typos and other type errors at compile time.
+
+## Inspiration
+
+1. https://github.com/nordnet/sass-variable-loader
+2. https://github.com/hankmccoy/sass-to-js-var-loader
