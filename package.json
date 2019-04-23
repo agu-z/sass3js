@@ -17,9 +17,14 @@
   },
   "keywords": [
     "sass",
+    "variables",
+    "vars",
     "javascript",
     "typescript",
-    "flowtype"
+    "flow",
+    "flowtype",
+    "convert",
+    "import"
   ],
   "author": "Agustin Zubiaga <sup@aguz.me>",
   "license": "MIT",
