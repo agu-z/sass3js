@@ -131,7 +131,7 @@ I know it's silly, but [sass2js](https://www.npmjs.com/package/sass2js) is alrea
 
 ### sass > node-sass
 
-There are already a number of npm packages that do something similar to this one. However, most of them use [node-sass](https://www.npmjs.com/package/node-sass) instead of [sass](https://www.npmjs.com/package/sass). The latter is the official implementation and tools like [parcel](https://parceljs.org) recommend using it over the former. I didn't want to have both in my project.
+There are already a number of npm packages that do something similar to this one. However, most of them use [node-sass](https://www.npmjs.com/package/node-sass) instead of [sass](https://www.npmjs.com/package/sass). The latter is the official implementation and tools like [parcel](https://parceljs.org) recommend using it over the former. I didn't want to have both in my project so I made this.
 
 ### Type safety
 
