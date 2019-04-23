@@ -1,0 +1,37 @@
+{
+  "name": "sass3js",
+  "version": "0.0.1",
+  "description": "Convert SASS variables to JS or TS",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "sass3js": "./lib/cli.js"
+  },
+  "peerDependencies": {
+    "sass": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguzubiaga/sass3js.git"
+  },
+  "keywords": [
+    "sass",
+    "javascript",
+    "typescript",
+    "flowtype"
+  ],
+  "author": "Agustin Zubiaga <sup@aguz.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aguzubiaga/sass3js/issues"
+  },
+  "homepage": "https://github.com/aguzubiaga/sass3js#readme",
+  "dependencies": {
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "sass": "^1.19.0"
+  }
+}
