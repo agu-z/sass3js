@@ -1,6 +1,6 @@
 {
   "name": "sass3js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert SASS variables to JS or TS",
   "scripts": {
     "test": "ava"
