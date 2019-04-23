@@ -117,11 +117,11 @@ type Variables = { [variable: string]: string };
 type Format = "js" | "json" | "ts" | "flow";
 ```
 
-### `getVariables(contents: string): Variables`
+#### `getVariables(contents: string): Variables`
 
 This function takes the contents of your SCSS file and returns an object where the keys are the variable names and the values are the rendered (final) values.
 
-### `format(variables: Variables, format: Format, tab: number | string): string`
+#### `format(variables: Variables, format: Format, tab: number | string): string`
 
 The `format` function serializes the variables and generates the output file. It takes the variables object returned by `getVariables`, a format option, and tab argument which can either be the number of spaces or the character to use (e.g. tab).
 
