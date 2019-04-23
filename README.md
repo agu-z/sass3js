@@ -1,5 +1,7 @@
 # sass3js
 
+[![npm version](https://img.shields.io/npm/v/sass3js.svg)](https://www.npmjs.com/package/sass3js) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?maxAge=2592000)](LICENSE)
+
 Convert SASS \* variables to JavaScript (flow supported), JSON, and TypeScript.
 
 It takes this:
