@@ -3,8 +3,11 @@ import test from "ava";
 import { format } from "../lib/format";
 
 const variables = {
-  red: "#ff0001",
-  darkRed: "#cc0001",
+  all: {
+    red: "#ff0001",
+    darkRed: "#cc0001",
+  },
+  groups: {},
 };
 
 function testFormat(t, f) {
