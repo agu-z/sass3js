@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aguzubiaga/sass3js.git"
+    "url": "git+https://github.com/agu-z/sass3js.git"
   },
   "keywords": [
     "sass",
@@ -26,12 +26,12 @@
     "convert",
     "import"
   ],
-  "author": "Agustin Zubiaga <sup@aguz.me>",
+  "author": "Agustín Zubiaga <sup@aguz.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aguzubiaga/sass3js/issues"
+    "url": "https://github.com/agu-z/sass3js/issues"
   },
-  "homepage": "https://github.com/aguzubiaga/sass3js#readme",
+  "homepage": "https://github.com/agu-z/sass3js#readme",
   "dependencies": {
     "commander": "^2.20.0"
   },
