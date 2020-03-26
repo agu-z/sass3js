@@ -36,7 +36,7 @@
     "commander": "^2.20.0"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
-    "sass": "^1.19.0"
+    "ava": "^3.5.1",
+    "sass": "^1.26.3"
   }
 }
