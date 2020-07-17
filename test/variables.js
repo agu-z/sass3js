@@ -1,16 +1,16 @@
-import test from "ava";
+const test = require("ava");
 
-import { getVariables } from "../lib/variables";
+const { getVariables } = require("../lib/variables");
 
-test("basic variables", t => {
+test("basic variables", (t) => {
   t.deepEqual(getVariables("$red: #ff0001;"), { red: "#ff0001" });
 });
 
-test("camelCase", t => {
+test("camelCase", (t) => {
   t.deepEqual(getVariables("$color-red: #ff0001;"), { colorRed: "#ff0001" });
 });
 
-test("variable reference", t => {
+test("variable reference", (t) => {
   t.deepEqual(
     getVariables(`
       $one: 1px;
@@ -20,7 +20,7 @@ test("variable reference", t => {
   );
 });
 
-test("sass functions", t => {
+test("sass functions", (t) => {
   t.deepEqual(
     getVariables(`
       $red: #ff0001;

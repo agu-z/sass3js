@@ -1,6 +1,6 @@
-import test from "ava";
+const test = require("ava");
 
-import { format } from "../lib/format";
+const { format } = require("../lib/format");
 
 const variables = {
   red: "#ff0001",
@@ -18,7 +18,7 @@ test(testFormat, "flow");
 test(testFormat, "ts");
 test(testFormat, "json");
 
-test("tab", t => {
+test("tab", (t) => {
   t.snapshot(format(variables, "json", 2));
   t.snapshot(format(variables, "json", 4));
   t.snapshot(format(variables, "json", "\t"));
